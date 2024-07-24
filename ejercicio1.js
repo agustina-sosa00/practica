@@ -139,3 +139,22 @@ function Calculin2(n1) {
   MenorDe100(11, 322, 44, 122);
   
   // HACER UN PROGRAMA PARA INGRESAR UN NUMERO QUE ESTARA EXPRESADO EN MINUTOS. SI LOS MINUTOS SUPERAN LOS 60, PASAR EL VALOR A HORAS, DE LO CONTRARIO DEJARLO EN MINUTOS. MOSTRAR EL RESULTADO ACLARANDO SI SE MUESTRAN MINUTOS U HORAS.
+
+let min = 0;
+let hs = 0;
+let resul = 0;
+
+function Reloj(n) {
+  if (n > 60) {
+    hs = n / 60;
+    min = n % 60;
+
+    hs = Math.round(hs);
+
+    console.log(`${hs} Horas y ${min} Minutos`);
+  } else {
+    console.log(`${n} Minutos`);
+  }
+}
+
+Reloj(20);
