@@ -10,3 +10,9 @@ export interface IUser {
     isActive: boolean;
     subscription: boolean;
 }
+
+export interface IForm {
+    name: string;
+    email: string;
+    password: string;
+}
