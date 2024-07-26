@@ -35,6 +35,10 @@ function Multiplo(n) {
   // cero, calcular la división del primero por el segundo y mostrar el resultado por
   // pantalla; caso contrario, emitir un cartel aclarando que no se puede dividir por
   // cero.
+
+  const func = () => {
+    
+  }
   
   // Un importante negocio de desinfectante líquido realiza descuentos
   // dependiendo de la cantidad de litros vendidos según la siguiente escala:
