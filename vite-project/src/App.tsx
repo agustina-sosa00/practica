@@ -1,5 +1,6 @@
 
 import './App.css'
+import ButtonWh from './components/buttonwp/ButtonWh';
 import Countdown from './components/Contador';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <h1>Cuenta regresiva</h1>
       <Countdown targetDate={targetDate} />
+      <ButtonWh/>
     </div>
   );
 }
